@@ -1,0 +1,6 @@
+version: '2'
+services:
+  prod_container:
+    image: "tmatrix/chatbot-docker-prod"
+    ports:
+      - "5000:5000"
